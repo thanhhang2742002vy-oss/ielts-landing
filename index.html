@@ -555,57 +555,87 @@
                      1. Thay 'ACTION_URL_CUA_BAN' bằng link Google Form bạn lấy được (có dạng .../formResponse)
                      2. Thay các 'entry.111111', 'entry.222222'... bằng mã số tương ứng từ 'Get pre-filled link'
                      -->
-                  <form 
-                     action="ACTION_URL_CUA_BAN" 
-                     method="POST" 
-                     target="hidden_iframe"
-                     onsubmit="alert('Đăng ký thành công! InterGreat sẽ liên hệ với bạn sớm nhất.');" 
-                     class="space-y-4"
-                     >
-                     <!-- Field 1: Name -->
-                     <div>
-                        <label class="block text-sm font-medium text-slate-700 mb-1">Họ và tên học viên</label>
-                        <input type="text" name="entry.111111" required placeholder="Nhập họ tên đầy đủ" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition">
-                     </div>
-                     <!-- Field 2: Phone -->
-                     <div>
-                        <label class="block text-sm font-medium text-slate-700 mb-1">Số điện thoại (Zalo)</label>
-                        <input type="tel" name="entry.222222" required pattern="[0-9]{10}" placeholder="Nhập số điện thoại đăng ký" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition">
-                     </div>
-                     <div class="grid grid-cols-2 gap-4">
-                        <!-- Field 3: Class/Age -->
-                        <div>
-                           <label class="block text-sm font-medium text-slate-700 mb-1">Lớp / Độ tuổi</label>
-                           <select name="entry.333333" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 outline-none">
-                              <option value="Học sinh cấp 2">Học sinh cấp 2</option>
-                              <option value="Học sinh cấp 3">Học sinh cấp 3</option>
-                              <option value="Sinh viên">Sinh viên</option>
-                              <option value="Người đi làm">Người đi làm</option>
-                           </select>
-                        </div>
-                        <!-- Field 4: Target -->
-                        <div>
-                           <label class="block text-sm font-medium text-slate-700 mb-1">Target mong muốn</label>
-                           <select name="entry.444444" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 outline-none">
-                              <option value="5.0 - 5.5">5.0 - 5.5</option>
-                              <option value="6.0 - 6.5">6.0 - 6.5</option>
-                              <option value="7.0 - 7.5">7.0 - 7.5</option>
-                              <option value="8.0+">8.0+</option>
-                           </select>
-                        </div>
-                     </div>
-                     <!-- Field 5: Time -->
-                     <div>
-                        <label class="block text-sm font-medium text-slate-700 mb-1">Thời gian rảnh nghe tư vấn</label>
-                        <input type="text" name="entry.555555" placeholder="Ví dụ: Sáng T7, Tối 2-4-6" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition">
-                     </div>
-                     <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
-                     NHẬN LỘ TRÌNH QUA ZALO NGAY
-                     </button>
-                     <p class="text-xs text-center text-slate-500 mt-2">Thông tin của bạn được bảo mật tuyệt đối.</p>
-                  </form>
-                  <!-- Hidden Iframe to handle Google Form submission without redirecting -->
-                  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+<form 
+  action="https://docs.google.com/forms/d/e/1FAIpQLScsnBhQnQAOSQFovLGkARAQ_OUdqQDqNNe4DSX35xNDBSRTKQ/formResponse"
+  method="POST" 
+  target="hidden_iframe"
+  onsubmit="alert('Đăng ký thành công! InterGreat sẽ liên hệ với bạn sớm nhất.');" 
+  class="space-y-4"
+>
+  <!-- Field 1: Name -->
+  <div>
+    <label class="block text-sm font-medium text-slate-700 mb-1">Họ và tên học viên</label>
+    <input 
+      type="text" 
+      name="entry.1780339120" 
+      required 
+      placeholder="Nhập họ tên đầy đủ" 
+      class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition">
+  </div>
+
+  <!-- Field 2: Phone -->
+  <div>
+    <label class="block text-sm font-medium text-slate-700 mb-1">Số điện thoại (Zalo)</label>
+    <input 
+      type="tel" 
+      name="entry.1088910219" 
+      required 
+      pattern="[0-9]{10}" 
+      placeholder="Nhập số điện thoại nhận kết quả" 
+      class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition">
+  </div>
+
+  <div class="grid grid-cols-2 gap-4">
+    <!-- Field 3: Class/Age -->
+    <div>
+      <label class="block text-sm font-medium text-slate-700 mb-1">Lớp / Độ tuổi</label>
+      <select 
+        name="entry.378495045" 
+        class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 outline-none">
+        <option value="Học sinh cấp 2">Học sinh cấp 2</option>
+        <option value="Học sinh cấp 3">Học sinh cấp 3</option>
+        <option value="Sinh viên">Sinh viên</option>
+        <option value="Người đi làm">Người đi làm</option>
+      </select>
+    </div>
+
+    <!-- Field 4: Target -->
+    <div>
+      <label class="block text-sm font-medium text-slate-700 mb-1">Target mong muốn</label>
+      <select 
+        name="entry.574305299" 
+        class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 outline-none">
+        <option value="5.0 - 5.5">5.0 - 5.5</option>
+        <option value="6.0 - 6.5">6.0 - 6.5</option>
+        <option value="7.0 - 7.5">7.0 - 7.5</option>
+        <option value="8.0+">8.0+</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Field 5: Time -->
+  <div>
+    <label class="block text-sm font-medium text-slate-700 mb-1">Thời gian rảnh nghe tư vấn</label>
+    <input 
+      type="text" 
+      name="entry.381864933" 
+      placeholder="Ví dụ: Sáng T7, Tối 2-4-6" 
+      class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition">
+  </div>
+
+  <button 
+    type="submit" 
+    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+    NHẬN LỘ TRÌNH QUA ZALO NGAY
+  </button>
+
+  <p class="text-xs text-center text-slate-500 mt-2">
+    Thông tin của bạn được bảo mật tuyệt đối.
+  </p>
+</form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
                </div>
             </div>
          </div>
