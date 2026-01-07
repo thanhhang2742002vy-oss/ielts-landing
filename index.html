@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="vi">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>InterGreat IELTS Vĩnh Phúc - Lộ Trình Cá Nhân Hóa Chuẩn Quốc Tế</title>
+      <meta name="description" content="Luyện thi IELTS tại Vĩnh Phúc & Phú Thọ với lộ trình cá nhân hóa, giáo viên 8.0+ và Native Speaker. Đối tác Platinum British Council & IDP.">
+      <!-- Tailwind CSS -->
+      <script src="https://cdn.tailwindcss.com"></script>
+      <!-- Google Fonts: Inter (Academic & Clean) -->
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <!-- Font Awesome for Icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <style>
+         body {
+         font-family: 'Inter', sans-serif;
+         scroll-behavior: smooth;
+         }
+         .bg-navy-900 { background-color: #0f172a; }
+         .bg-navy-800 { background-color: #1e293b; }
+         .text-navy-900 { color: #0f172a; }
+         .text-blue-primary { color: #2563eb; }
+         .bg-blue-primary { background-color: #2563eb; }
+         /* Custom Academic Shadow */
+         .card-shadow {
+         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+         transition: all 0.3s ease;
+         }
+         .card-shadow:hover {
+         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+         transform: translateY(-2px);
+         }
+         /* Hero Background Gradient */
+         .hero-bg {
+         background: linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.8)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+         background-size: cover;
+         background-position: center;
+         }
+      </style>
+   </head>
+   <body class="bg-slate-50 text-slate-800 antialiased">
+      <!-- Navigation -->
+      <nav class="bg-white shadow-sm fixed w-full z-50">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+               <div class="flex-shrink-0 flex items-center gap-3">
+                  <!-- Logo Placeholder -->
+                  <!-- Lưu ý: Hãy đổi tên file ảnh của bạn thành 'logo_intergreat.jpg' và để cùng thư mục -->
+                  <img src="logo_intergreat.jpg" onerror="this.src='https://placehold.co/100x100?text=IG'" alt="InterGreat Logo" class="h-10 w-auto object-contain">
+                  <div class="flex flex-col">
+                     <span class="font-bold text-xl text-navy-900 leading-tight">InterGreat</span>
+                     <span class="text-xs text-slate-500 uppercase tracking-wider">Education Group</span>
+                  </div>
+               </div>
+               <div class="hidden md:flex space-x-8 items-center">
+                  <a href="#ve-chung-toi" class="text-slate-600 hover:text-blue-600 font-medium text-sm transition">Về InterGreat</a>
+                  <a href="#phuong-phap" class="text-slate-600 hover:text-blue-600 font-medium text-sm transition">Phương Pháp</a>
+                  <a href="#lo-trinh" class="text-slate-600 hover:text-blue-600 font-medium text-sm transition">Lộ Trình</a>
+                  <a href="#doi-ngu" class="text-slate-600 hover:text-blue-600 font-medium text-sm transition">Đội Ngũ</a>
+                  <a href="#dang-ky" class="bg-blue-600 text-white px-5 py-2.5 rounded hover:bg-blue-700 transition font-semibold text-sm shadow-md">
+                  Đăng Ký Test Free
+                  </a>
+               </div>
+               <!-- Mobile menu button -->
+               <div class="md:hidden flex items-center">
+                  <button onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="text-slate-600 hover:text-slate-900 focus:outline-none">
+                  <i class="fas fa-bars text-2xl"></i>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <!-- Mobile Menu -->
+         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+               <a href="#phuong-phap" class="block px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50">Phương Pháp</a>
+               <a href="#lo-trinh" class="block px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50">Lộ Trình</a>
+               <a href="#dang-ky" class="block px-3 py-2 text-base font-medium text-blue-600 font-bold bg-blue-50 rounded">Đăng Ký Ngay</a>
+            </div>
+         </div>
+      </nav>
+      <!-- Hero Section -->
+      <header class="relative hero-bg h-auto min-h-screen flex items-center pt-20">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+               <div class="text-white space-y-6">
+                  <div class="inline-flex items-center gap-2 bg-blue-900/50 border border-blue-500/30 rounded-full px-4 py-1.5 backdrop-blur-sm">
+                     <i class="fas fa-check-circle text-blue-400 text-xs"></i>
+                     <span class="text-xs font-semibold tracking-wide uppercase text-blue-100">Đối tác Platinum British Council & IDP</span>
+                  </div>
+                  <h1 class="text-4xl lg:text-5xl font-extrabold leading-tight">
+                     Học IELTS Đúng Chuẩn <br>
+                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Tăng Band Thật Từ 0 → 7.0+</span>
+                  </h1>
+                  <p class="text-lg text-slate-300 max-w-xl font-light leading-relaxed">
+                     Lộ trình cá nhân hóa dựa trên tiêu chí chấm điểm thực tế. InterGreat giúp học viên học đúng trọng tâm, sửa bài sát sườn, cam kết không học lan man, không hứa suông.
+                  </p>
+                  <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                     <a href="#dang-ky" class="inline-flex justify-center items-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded shadow-lg hover:shadow-blue-500/30 transition transform hover:-translate-y-0.5 text-center">
+                     ĐĂNG KÝ TEST IELTS MIỄN PHÍ
+                     </a>
+                     <a href="#lo-trinh" class="inline-flex justify-center items-center px-8 py-4 bg-white/10 hover:bg-white/20 text-white border border-white/30 backdrop-blur-md font-semibold rounded transition text-center">
+                     Nhận Lộ Trình Cá Nhân Hóa
+                     </a>
+                  </div>
+                  <div class="pt-8 grid grid-cols-3 gap-4 border-t border-white/10 mt-8">
+                     <div>
+                        <p class="text-2xl font-bold text-white">28M+</p>
+                        <p class="text-xs text-slate-400">Học viên toàn cầu</p>
+                     </div>
+                     <div>
+                        <p class="text-2xl font-bold text-white">13+</p>
+                        <p class="text-xs text-slate-400">Năm kinh nghiệm</p>
+                     </div>
+                     <div>
+                        <p class="text-2xl font-bold text-white">Top 1</p>
+                        <p class="text-xs text-slate-400">Website luyện thi</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Hero Image / Visual -->
+               <div class="relative hidden lg:block">
+                  <!-- Abstract representation of success/academic focus -->
+                  <div class="relative rounded-lg overflow-hidden shadow-2xl border-4 border-white/10">
+                     <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Students studying" class="w-full object-cover h-[500px] opacity-90">
+                     <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                        <p class="text-white font-medium italic">"Mỗi học viên tại InterGreat đều có một Roadmap riêng biệt."</p>
+                     </div>
+                  </div>
+                  <!-- Floating Badge -->
+                  <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded shadow-xl max-w-xs animate-bounce" style="animation-duration: 3s;">
+                     <div class="flex items-center gap-3">
+                        <div class="bg-green-100 p-2 rounded-full text-green-600">
+                           <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div>
+                           <p class="text-xs text-slate-500 font-semibold">Kết quả thực tế</p>
+                           <p class="text-sm font-bold text-slate-800">Tăng 1.0 - 1.5 Band sau 1 khóa</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Insight / Pain Points Section -->
+      <section class="py-20 bg-slate-50">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+               <h2 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-2">Thực trạng</h2>
+               <h3 class="text-3xl font-bold text-navy-900">Tại sao bạn có kiến thức nhưng Band điểm mãi không tăng?</h3>
+               <p class="mt-4 text-slate-600 leading-relaxed">
+                  Nhiều học sinh trường Chuyên, trường Top có nền tảng tốt nhưng vẫn dậm chân tại chỗ ở mức 5.0 - 5.5. Vấn đề không nằm ở sự chăm chỉ, mà ở phương pháp tiếp cận sai lệch so với tiêu chí chấm điểm.
+               </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+               <!-- Point 1 -->
+               <div class="bg-white p-8 rounded border border-slate-100 card-shadow">
+                  <div class="w-12 h-12 bg-red-50 rounded-full flex items-center justify-center mb-6">
+                     <i class="fas fa-search text-red-500 text-xl"></i>
+                  </div>
+                  <h4 class="text-xl font-bold text-navy-900 mb-3">Không rõ lỗi sai cụ thể</h4>
+                  <p class="text-slate-600 text-sm leading-relaxed">
+                     Bạn làm bài sai nhưng không ai chỉ rõ lỗi đó thuộc Band mấy, tiêu chí nào. Việc sửa bài chung chung như "cần viết hay hơn" không giúp bạn cải thiện điểm số.
+                  </p>
+               </div>
+               <!-- Point 2 -->
+               <div class="bg-white p-8 rounded border border-slate-100 card-shadow">
+                  <div class="w-12 h-12 bg-orange-50 rounded-full flex items-center justify-center mb-6">
+                     <i class="fas fa-balance-scale text-orange-500 text-xl"></i>
+                  </div>
+                  <h4 class="text-xl font-bold text-navy-900 mb-3">Học lệch tiêu chí chấm</h4>
+                  <p class="text-slate-600 text-sm leading-relaxed">
+                     Writing không chỉ là từ vựng khủng. Speaking không chỉ là nói nhanh. Giám khảo chấm dựa trên 4 tiêu chí rõ ràng (TR, CC, LR, GRA). Học sai hướng càng học càng mất điểm.
+                  </p>
+               </div>
+               <!-- Point 3 -->
+               <div class="bg-white p-8 rounded border border-slate-100 card-shadow">
+                  <div class="w-12 h-12 bg-purple-50 rounded-full flex items-center justify-center mb-6">
+                     <i class="fas fa-road text-purple-500 text-xl"></i>
+                  </div>
+                  <h4 class="text-xl font-bold text-navy-900 mb-3">Lộ trình đại trà</h4>
+                  <p class="text-slate-600 text-sm leading-relaxed">
+                     Mỗi học viên có điểm mạnh/yếu khác nhau. Việc áp dụng một lộ trình chung cho lớp học đông người khiến bạn lãng phí thời gian vào cái đã biết và hổng kiến thức ở cái chưa biết.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Solution / Methodology -->
+      <section id="phuong-phap" class="py-20 bg-white">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+               <div>
+                  <h2 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-2">Giải pháp InterGreat</h2>
+                  <h3 class="text-3xl font-bold text-navy-900 mb-6">Quy trình đào tạo chuẩn khảo thí quốc tế</h3>
+                  <div class="space-y-8">
+                     <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center font-bold text-blue-700">1</div>
+                        <div>
+                           <h4 class="font-bold text-lg text-navy-900">Test 4 kỹ năng với IELTS AI & Giáo viên</h4>
+                           <p class="text-slate-600 text-sm mt-1">Sử dụng công nghệ mô phỏng bài thi thật. Nhận kết quả chi tiết sau 30 phút, phân tích sâu điểm mạnh/yếu từng kỹ năng.</p>
+                        </div>
+                     </div>
+                     <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center font-bold text-blue-700">2</div>
+                        <div>
+                           <h4 class="font-bold text-lg text-navy-900">Xây dựng Roadmap cá nhân hóa</h4>
+                           <p class="text-slate-600 text-sm mt-1">Không học đại trà. Lộ trình được thiết kế riêng để tối ưu hóa thời gian, tập trung khắc phục điểm yếu chí mạng đang kéo điểm xuống.</p>
+                        </div>
+                     </div>
+                     <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center font-bold text-blue-700">3</div>
+                        <div>
+                           <h4 class="font-bold text-lg text-navy-900">Đánh giá & Tinh chỉnh liên tục</h4>
+                           <p class="text-slate-600 text-sm mt-1">Kiểm tra tiến độ định kỳ (Progress Test) theo chuẩn đề thi thật. Cam kết đầu ra bằng văn bản.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="mt-10">
+                     <a href="#dang-ky" class="text-blue-600 font-bold hover:text-blue-800 transition flex items-center gap-2">
+                     Đăng ký đánh giá năng lực ngay <i class="fas fa-arrow-right"></i>
+                     </a>
+                  </div>
+               </div>
+               <div class="relative">
+                  <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="IELTS Class" class="rounded shadow-2xl">
+                  <div class="absolute -bottom-10 -right-10 bg-white p-6 rounded shadow-xl hidden md:block max-w-xs border-l-4 border-blue-600">
+                     <p class="font-serif italic text-navy-900">"Học đúng phương pháp giúp rút ngắn 50% thời gian đạt mục tiêu."</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Credibility / About Us -->
+      <section id="ve-chung-toi" class="py-16 bg-navy-900 text-white relative overflow-hidden">
+         <div class="absolute inset-0 opacity-10" style="background-image: url('https://www.transparenttextures.com/patterns/cubes.png');"></div>
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-12">
+               <h2 class="text-3xl font-bold mb-4">Hệ Sinh Thái Giáo Dục Quốc Tế InterGreat</h2>
+               <p class="text-slate-300 max-w-2xl mx-auto">Tập đoàn giáo dục có trụ sở tại Anh Quốc, mang tiêu chuẩn học thuật thế giới về Vĩnh Phúc & Phú Thọ.</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-slate-700">
+               <div class="p-4">
+                  <div class="text-4xl font-bold text-blue-400 mb-2">UK</div>
+                  <p class="text-sm text-slate-300">Trụ sở chính tại London</p>
+               </div>
+               <div class="p-4">
+                  <div class="text-4xl font-bold text-blue-400 mb-2">120+</div>
+                  <p class="text-sm text-slate-300">Quốc gia có học viên</p>
+               </div>
+               <div class="p-4">
+                  <div class="text-4xl font-bold text-blue-400 mb-2">Platinum</div>
+                  <p class="text-sm text-slate-300">Đối tác British Council & IDP</p>
+               </div>
+               <div class="p-4">
+                  <div class="text-4xl font-bold text-blue-400 mb-2">28M+</div>
+                  <p class="text-sm text-slate-300">User trên IELTS Online Tests</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Teachers -->
+      <section id="doi-ngu" class="py-20 bg-slate-50">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+               <h2 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-2">Đội ngũ giảng viên</h2>
+               <h3 class="text-3xl font-bold text-navy-900">Những người dẫn đường tận tâm</h3>
+               <p class="mt-4 text-slate-600">Không chỉ dạy kiến thức, thầy cô dạy bạn "tư duy" của người ra đề.</p>
+            </div>
+            <!-- Changed grid to 2 columns and centered -->
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+               <!-- Teacher 1: Thầy Lê Nhật Tùng -->
+               <div class="bg-white rounded overflow-hidden card-shadow group flex flex-col h-full">
+                  <div class="h-80 bg-slate-200 overflow-hidden relative">
+                     <!-- Placeholder image for Vietnamese Teacher -->
+                     <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Thầy Lê Nhật Tùng" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 object-top">
+                     <div class="absolute bottom-0 left-0 bg-blue-600 text-white text-xs px-3 py-1 font-bold">7.5 IELTS Overall</div>
+                  </div>
+                  <div class="p-8 flex-1 flex flex-col">
+                     <h4 class="font-bold text-2xl text-navy-900">Thầy Lê Nhật Tùng</h4>
+                     <p class="text-blue-600 text-sm font-bold uppercase tracking-wide mb-4">Cựu học sinh Chuyên Vĩnh Phúc</p>
+                     <p class="text-slate-600 text-sm mb-6 italic border-l-4 border-blue-200 pl-3">
+                        "Thấu hiểu hành trình học và áp lực thi cử của học sinh địa phương. Giúp học viên tiến bộ rõ rệt bằng phương pháp bám sát tiêu chí chấm điểm."
+                     </p>
+                     <ul class="text-sm text-slate-700 space-y-3 mt-auto">
+                        <li class="flex items-start">
+                           <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                           <span><strong>2+ năm kinh nghiệm</strong> giảng dạy & luyện thi IELTS 4 kỹ năng.</span>
+                        </li>
+                        <li class="flex items-start">
+                           <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                           <span>Thành tích đào tạo: Tăng từ <strong>5.0 → 6.5 chỉ sau 3 tháng</strong>.</span>
+                        </li>
+                        <li class="flex items-start">
+                           <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                           <span>Phong cách dạy sát sao, tập trung sửa lỗi theo band điểm thực tế.</span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- Teacher 2: Thầy Michael Yeboah -->
+               <div class="bg-white rounded overflow-hidden card-shadow group flex flex-col h-full">
+                  <div class="h-80 bg-slate-200 overflow-hidden relative">
+                     <!-- Placeholder image for Foreign Teacher -->
+                     <img src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Thầy Michael Yeboah" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 object-top">
+                     <div class="absolute bottom-0 left-0 bg-blue-600 text-white text-xs px-3 py-1 font-bold">7.5 IELTS | TESOL Certified</div>
+                  </div>
+                  <div class="p-8 flex-1 flex flex-col">
+                     <h4 class="font-bold text-2xl text-navy-900">Thầy Michael Yeboah</h4>
+                     <p class="text-blue-600 text-sm font-bold uppercase tracking-wide mb-4">Giáo viên bản ngữ (TESOL)</p>
+                     <p class="text-slate-600 text-sm mb-6 italic border-l-4 border-blue-200 pl-3">
+                        "Giảng viên nước ngoài hiếm hoi có chứng chỉ TESOL quốc tế. Nổi bật với phát âm chuẩn bản ngữ và phương pháp dạy hiện đại."
+                     </p>
+                     <ul class="text-sm text-slate-700 space-y-3 mt-auto">
+                        <li class="flex items-start">
+                           <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                           <span><strong>3+ năm kinh nghiệm</strong> giảng dạy tại AMES, Cambridge VN...</span>
+                        </li>
+                        <li class="flex items-start">
+                           <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                           <span>Đào tạo <strong>300+ học viên</strong> đạt Band 7.0 – 8.0 IELTS.</span>
+                        </li>
+                        <li class="flex items-start">
+                           <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                           <span>Chuyên sâu Speaking & Writing, lớp học tương tác cao.</span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Courses Roadmap (Table Style) -->
+      <section id="lo-trinh" class="py-20 bg-white">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+               <h2 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-2">Lộ Trình Học Tập</h2>
+               <h3 class="text-3xl font-bold text-navy-900">LỘ TRÌNH TỪ MẤT GỐC → 7.0+ IELTS</h3>
+               <div class="flex flex-wrap justify-center gap-4 mt-6">
+                  <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-bold bg-green-100 text-green-800">
+                  <i class="fas fa-check-circle mr-2 text-green-600"></i>Rút ngắn 40% thời gian
+                  </span>
+                  <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-bold bg-green-100 text-green-800">
+                  <i class="fas fa-check-circle mr-2 text-green-600"></i>Tiết kiệm chi phí
+                  </span>
+                  <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-bold bg-green-100 text-green-800">
+                  <i class="fas fa-check-circle mr-2 text-green-600"></i>Học đến đâu chắc đến đó
+                  </span>
+               </div>
+            </div>
+            <!-- Responsive Table Container -->
+            <div class="overflow-hidden border border-slate-200 rounded-xl shadow-lg">
+               <div class="overflow-x-auto">
+                  <table class="min-w-full text-sm text-left">
+                     <thead class="bg-navy-900 text-white uppercase font-bold text-xs tracking-wider">
+                        <tr>
+                           <th class="px-6 py-4">Khóa học</th>
+                           <th class="px-6 py-4">Đầu vào</th>
+                           <th class="px-6 py-4">Đầu ra</th>
+                           <th class="px-6 py-4">Thời gian</th>
+                           <th class="px-6 py-4 min-w-[250px]">Mục tiêu & Đối tượng</th>
+                        </tr>
+                     </thead>
+                     <tbody class="divide-y divide-slate-200">
+                        <!-- GIAI ĐOẠN 1 HEADER -->
+                        <tr class="bg-green-50">
+                           <td colspan="5" class="px-6 py-3 font-bold text-green-800 uppercase tracking-wide border-l-4 border-green-500">
+                              <i class="fas fa-seedling mr-2"></i>Giai đoạn 1: Xây dựng nền tảng (Mất gốc → 4.5)
+                           </td>
+                        </tr>
+                        <!-- MC2 -->
+                        <tr class="bg-white hover:bg-slate-50 transition">
+                           <td class="px-6 py-4 font-bold text-navy-900 whitespace-nowrap">MasterClass 2</td>
+                           <td class="px-6 py-4 text-slate-600">0</td>
+                           <td class="px-6 py-4 font-bold text-blue-600">2.0 – 2.5</td>
+                           <td class="px-6 py-4 text-slate-600">3,5 tháng</td>
+                           <td class="px-6 py-4 text-slate-600 italic">Mất gốc hoàn toàn, làm quen từ vựng – ngữ pháp – nghe nói cơ bản.</td>
+                        </tr>
+                        <!-- MC3 -->
+                        <tr class="bg-white hover:bg-slate-50 transition">
+                           <td class="px-6 py-4 font-bold text-navy-900 whitespace-nowrap">MasterClass 3</td>
+                           <td class="px-6 py-4 text-slate-600">2.0 – 2.5</td>
+                           <td class="px-6 py-4 font-bold text-blue-600">3.0 – 3.5</td>
+                           <td class="px-6 py-4 text-slate-600">3,5 tháng</td>
+                           <td class="px-6 py-4 text-slate-600 italic">Củng cố nền tảng, bắt đầu giao tiếp đơn giản, làm quen cấu trúc bài thi.</td>
+                        </tr>
+                        <!-- MC4 -->
+                        <tr class="bg-white hover:bg-slate-50 transition">
+                           <td class="px-6 py-4 font-bold text-navy-900 whitespace-nowrap">MasterClass 4</td>
+                           <td class="px-6 py-4 text-slate-600">3.0 – 3.5</td>
+                           <td class="px-6 py-4 font-bold text-blue-600">4.5</td>
+                           <td class="px-6 py-4 text-slate-600">3,5 tháng</td>
+                           <td class="px-6 py-4 text-slate-600 italic">Bước chuyển sang IELTS học thuật, nắm rõ cấu trúc 4 kỹ năng.</td>
+                        </tr>
+                        <!-- GIAI ĐOẠN 2 HEADER -->
+                        <tr class="bg-yellow-50">
+                           <td colspan="5" class="px-6 py-3 font-bold text-yellow-800 uppercase tracking-wide border-l-4 border-yellow-500">
+                              <i class="fas fa-layer-group mr-2"></i>Giai đoạn 2: Tăng Band & Chuẩn hóa (4.5 → 6.5)
+                           </td>
+                        </tr>
+                        <!-- MC5 -->
+                        <tr class="bg-white hover:bg-slate-50 transition">
+                           <td class="px-6 py-4 font-bold text-navy-900 whitespace-nowrap">
+                              MasterClass 5
+                              <span class="ml-2 inline-block bg-yellow-100 text-yellow-800 text-[10px] px-2 py-0.5 rounded-full uppercase">Hot</span>
+                           </td>
+                           <td class="px-6 py-4 text-slate-600">4.0 – 4.5</td>
+                           <td class="px-6 py-4 font-bold text-blue-600">5.5</td>
+                           <td class="px-6 py-4 text-slate-600">5 tháng</td>
+                           <td class="px-6 py-4 text-slate-600 italic">Tập trung Writing & Speaking, xây dựng tư duy học thuật.</td>
+                        </tr>
+                        <!-- MC6 -->
+                        <tr class="bg-white hover:bg-slate-50 transition">
+                           <td class="px-6 py-4 font-bold text-navy-900 whitespace-nowrap">MasterClass 6</td>
+                           <td class="px-6 py-4 text-slate-600">5.0 – 5.5</td>
+                           <td class="px-6 py-4 font-bold text-blue-600">6.5</td>
+                           <td class="px-6 py-4 text-slate-600">5 tháng</td>
+                           <td class="px-6 py-4 text-slate-600 italic">Luyện đề sát thi thật. Đạt ngưỡng xét tuyển – miễn thi – ra trường.</td>
+                        </tr>
+                        <!-- GIAI ĐOẠN 3 HEADER -->
+                        <tr class="bg-red-50">
+                           <td colspan="5" class="px-6 py-3 font-bold text-red-800 uppercase tracking-wide border-l-4 border-red-500">
+                              <i class="fas fa-rocket mr-2"></i>Giai đoạn 3: Bứt phá điểm cao (6.5 → 7.0+)
+                           </td>
+                        </tr>
+                        <!-- MC7 -->
+                        <tr class="bg-white hover:bg-slate-50 transition">
+                           <td class="px-6 py-4 font-bold text-navy-900 whitespace-nowrap">MasterClass 7</td>
+                           <td class="px-6 py-4 text-slate-600">6.0 – 6.5</td>
+                           <td class="px-6 py-4 font-bold text-blue-600">7.0 – 7.0+</td>
+                           <td class="px-6 py-4 text-slate-600">40 buổi</td>
+                           <td class="px-6 py-4 text-slate-600 italic">Lộ trình cá nhân hóa 1:1. Dành cho mục tiêu Đại học Top, du học.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <!-- Consultation Box below Table -->
+            <div class="mt-8 bg-blue-50 border border-blue-100 rounded-lg p-6 flex flex-col md:flex-row items-center justify-between gap-6">
+               <div class="flex items-start gap-4">
+                  <div class="bg-blue-600 text-white p-3 rounded-full hidden sm:block">
+                     <i class="fas fa-user-clock text-xl"></i>
+                  </div>
+                  <div>
+                     <h4 class="text-lg font-bold text-navy-900">Bạn chưa biết mình phù hợp với khóa nào?</h4>
+                     <p class="text-slate-600 text-sm mt-1">Đừng lo lắng, hãy đăng ký test trình độ miễn phí để được xếp lớp chính xác nhất.</p>
+                  </div>
+               </div>
+               <a href="#dang-ky" class="whitespace-nowrap bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded shadow-lg transition transform hover:-translate-y-0.5">
+               Đăng Ký Test Xếp Lớp
+               </a>
+            </div>
+         </div>
+      </section>
+      <!-- Social Proof -->
+      <section class="py-20 bg-slate-50">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+               <h3 class="text-3xl font-bold text-navy-900">Học thật - Kết quả thật</h3>
+               <p class="mt-4 text-slate-600">Những con số biết nói từ học viên Vĩnh Phúc & Phú Thọ</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+               <!-- Student 1 -->
+               <div class="bg-white p-6 rounded shadow-sm border border-slate-100">
+                  <div class="flex items-center gap-4 mb-4">
+                     <div class="w-12 h-12 bg-slate-200 rounded-full overflow-hidden">
+                        <img src="https://ui-avatars.com/api/?name=Minh+Anh&background=random" alt="Minh Anh">
+                     </div>
+                     <div>
+                        <p class="font-bold text-navy-900">Nguyễn Minh Anh</p>
+                        <p class="text-xs text-slate-500">THPT Chuyên Vĩnh Phúc</p>
+                     </div>
+                  </div>
+                  <div class="mb-4">
+                     <span class="bg-green-100 text-green-700 font-bold px-2 py-1 rounded text-sm">5.5 -> 7.5 Overall</span>
+                  </div>
+                  <p class="text-sm text-slate-600 italic">"Em từng rất sợ Writing, viết mãi vẫn luẩn quẩn 5.0. Các thầy cô InterGreat đã giúp em hiểu rõ tư duy triển khai ý tưởng, chứ không chỉ là nhồi nhét từ vựng khó."</p>
+               </div>
+               <!-- Student 2 -->
+               <div class="bg-white p-6 rounded shadow-sm border border-slate-100">
+                  <div class="flex items-center gap-4 mb-4">
+                     <div class="w-12 h-12 bg-slate-200 rounded-full overflow-hidden">
+                        <img src="https://ui-avatars.com/api/?name=Hoang+Nam&background=random" alt="Hoang Nam">
+                     </div>
+                     <div>
+                        <p class="font-bold text-navy-900">Trần Hoàng Nam</p>
+                        <p class="text-xs text-slate-500">Sinh viên năm cuối</p>
+                     </div>
+                  </div>
+                  <div class="mb-4">
+                     <span class="bg-green-100 text-green-700 font-bold px-2 py-1 rounded text-sm">Mất gốc -> 6.5 Overall</span>
+                  </div>
+                  <p class="text-sm text-slate-600 italic">"Mình cần IELTS gấp để ra trường. Khóa Express rất hiệu quả, đúng trọng tâm. Mình đạt target sau đúng 3 tháng học tập trung."</p>
+               </div>
+               <!-- Parent -->
+               <div class="bg-white p-6 rounded shadow-sm border border-slate-100">
+                  <div class="flex items-center gap-4 mb-4">
+                     <div class="w-12 h-12 bg-slate-200 rounded-full overflow-hidden">
+                        <img src="https://ui-avatars.com/api/?name=Chi+Lan&background=random" alt="Chi Lan">
+                     </div>
+                     <div>
+                        <p class="font-bold text-navy-900">Chị Lan Hương</p>
+                        <p class="text-xs text-slate-500">Phụ huynh học sinh</p>
+                     </div>
+                  </div>
+                  <div class="mb-4">
+                     <div class="text-yellow-400 text-sm">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                     </div>
+                  </div>
+                  <p class="text-sm text-slate-600 italic">"Gia đình rất yên tâm khi cho con học tại đây. Lộ trình rõ ràng, thầy cô báo cáo tình hình học tập thường xuyên. Không có chuyện hứa suông."</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- FOMO & Registration Section -->
+      <section id="dang-ky" class="py-20 bg-blue-900 text-white relative">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+               <!-- Left: Offer Info -->
+               <div class="space-y-6">
+                  <h2 class="text-3xl lg:text-4xl font-bold">Đăng ký Test IELTS 4 Kỹ Năng & Tư vấn Lộ Trình Miễn Phí</h2>
+                  <p class="text-blue-200 text-lg">Cơ hội trải nghiệm môi trường học thuật chuẩn Anh Quốc ngay tại Vĩnh Phúc.</p>
+                  <div class="bg-blue-800/50 p-6 rounded-lg border border-blue-700">
+                     <h4 class="font-bold text-xl mb-4 text-yellow-400">QUYỀN LỢI ĐẶC BIỆT THÁNG NÀY:</h4>
+                     <ul class="space-y-3">
+                        <li class="flex items-center gap-3">
+                           <i class="fas fa-check-circle text-green-400"></i>
+                           <span>Miễn phí 100% phí Test trình độ 4 kỹ năng</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                           <i class="fas fa-check-circle text-green-400"></i>
+                           <span>01 Buổi học thử 1:1 với Giáo viên Việt Nam (8.0+)</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                           <i class="fas fa-check-circle text-green-400"></i>
+                           <span>01 Buổi trải nghiệm Speaking với Giáo viên Nước ngoài</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                           <i class="fas fa-check-circle text-green-400"></i>
+                           <span>Nhận bộ tài liệu "Roadmap to 7.0" độc quyền</span>
+                        </li>
+                     </ul>
+                     <div class="mt-6 text-sm text-blue-200 italic">
+                        <i class="fas fa-exclamation-triangle mr-2 text-yellow-500"></i>
+                        Chỉ còn <span class="font-bold text-white">05 suất</span> ưu đãi học thử trong tuần này.
+                     </div>
+                  </div>
+               </div>
+               <!-- Right: Form to Google Forms -->
+               <div class="bg-white rounded-xl shadow-2xl p-8 text-slate-800">
+                  <h3 class="text-2xl font-bold text-navy-900 text-center mb-6">Nhận Kết Quả & Tư Vấn</h3>
+                  <!-- 
+                     HƯỚNG DẪN THAY FORM:
+                     1. Thay 'ACTION_URL_CUA_BAN' bằng link Google Form bạn lấy được (có dạng .../formResponse)
+                     2. Thay các 'entry.111111', 'entry.222222'... bằng mã số tương ứng từ 'Get pre-filled link'
+                     -->
+                  <form 
+                     action="ACTION_URL_CUA_BAN" 
+                     method="POST" 
+                     target="hidden_iframe"
+                     onsubmit="alert('Đăng ký thành công! InterGreat sẽ liên hệ với bạn sớm nhất.');" 
+                     class="space-y-4"
+                     >
+                     <!-- Field 1: Name -->
+                     <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Họ và tên học viên</label>
+                        <input type="text" name="entry.111111" required placeholder="Nhập họ tên đầy đủ" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition">
+                     </div>
+                     <!-- Field 2: Phone -->
+                     <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Số điện thoại (Zalo)</label>
+                        <input type="tel" name="entry.222222" required pattern="[0-9]{10}" placeholder="Nhập số điện thoại nhận kết quả" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition">
+                     </div>
+                     <div class="grid grid-cols-2 gap-4">
+                        <!-- Field 3: Class/Age -->
+                        <div>
+                           <label class="block text-sm font-medium text-slate-700 mb-1">Lớp / Độ tuổi</label>
+                           <select name="entry.333333" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 outline-none">
+                              <option value="Học sinh cấp 2">Học sinh cấp 2</option>
+                              <option value="Học sinh cấp 3">Học sinh cấp 3</option>
+                              <option value="Sinh viên">Sinh viên</option>
+                              <option value="Người đi làm">Người đi làm</option>
+                           </select>
+                        </div>
+                        <!-- Field 4: Target -->
+                        <div>
+                           <label class="block text-sm font-medium text-slate-700 mb-1">Target mong muốn</label>
+                           <select name="entry.444444" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 outline-none">
+                              <option value="5.0 - 5.5">5.0 - 5.5</option>
+                              <option value="6.0 - 6.5">6.0 - 6.5</option>
+                              <option value="7.0 - 7.5">7.0 - 7.5</option>
+                              <option value="8.0+">8.0+</option>
+                           </select>
+                        </div>
+                     </div>
+                     <!-- Field 5: Time -->
+                     <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Thời gian rảnh nghe tư vấn</label>
+                        <input type="text" name="entry.555555" placeholder="Ví dụ: Sáng T7, Tối 2-4-6" class="w-full px-4 py-3 rounded border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition">
+                     </div>
+                     <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+                     NHẬN LỘ TRÌNH QUA ZALO NGAY
+                     </button>
+                     <p class="text-xs text-center text-slate-500 mt-2">Thông tin của bạn được bảo mật tuyệt đối.</p>
+                  </form>
+                  <!-- Hidden Iframe to handle Google Form submission without redirecting -->
+                  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer & Contact -->
+      <footer class="bg-navy-900 text-slate-400 py-12 border-t border-slate-800">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+               <div>
+                  <!-- ĐÃ CẬP NHẬT: Logo Footer -->
+                  <div class="flex items-center gap-3 text-white font-bold text-xl mb-4">
+                     <img src="logo_intergreat.jpg" onerror="this.src='https://placehold.co/100x100?text=IG'" alt="Logo" class="h-10 w-auto bg-white rounded p-1">
+                     InterGreat Vĩnh Phúc
+                  </div>
+                  <p class="text-sm leading-relaxed mb-4">Hệ thống đào tạo IELTS chuẩn quốc tế, đối tác chính thức của British Council & IDP Education.</p>
+                  <div class="flex gap-4">
+                     <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+                     <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-tiktok"></i></a>
+                     <a href="#" class="text-white hover:text-blue-400"><i class="fas fa-globe"></i></a>
+                  </div>
+               </div>
+               <div class="col-span-1 lg:col-span-2">
+                  <h4 class="text-white font-bold mb-4">Hệ thống cơ sở</h4>
+                  <ul class="space-y-4 text-sm">
+                     <li class="flex items-start gap-3">
+                        <i class="fas fa-map-marker-alt text-blue-500 mt-1"></i>
+                        <div>
+                           <strong class="text-white block">Cơ sở 1:</strong>
+                           174 Nguyễn Văn Linh, Phường Vĩnh Phúc, Tỉnh Phú Thọ
+                        </div>
+                     </li>
+                     <li class="flex items-start gap-3">
+                        <i class="fas fa-map-marker-alt text-blue-500 mt-1"></i>
+                        <div>
+                           <strong class="text-white block">Cơ sở 2:</strong>
+                           Tầng 4, Tòa nhà Kết Hiền, Xã Yên Lạc, Tỉnh Phú Thọ
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div>
+                  <h4 class="text-white font-bold mb-4">Liên hệ</h4>
+                  <ul class="space-y-4 text-sm">
+                     <li class="flex items-center gap-3">
+                        <i class="fas fa-phone-alt text-blue-500"></i>
+                        <a href="tel:0868010057" class="text-white font-bold text-lg hover:text-blue-400">0868 010 057</a>
+                     </li>
+                     <li class="flex items-center gap-3">
+                        <i class="fas fa-envelope text-blue-500"></i>
+                        <span>tuyensinh@intergreat.com</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="border-t border-slate-800 pt-8 text-center text-xs">
+               &copy; 2024 InterGreat Education Group. All rights reserved.
+            </div>
+         </div>
+      </footer>
+      <!-- Sticky Mobile CTA -->
+      <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-3 md:hidden z-50 flex gap-2">
+         <a href="tel:0868010057" class="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-3 rounded flex items-center justify-center gap-2">
+         <i class="fas fa-phone-alt"></i> Gọi điện
+         </a>
+         <a href="#dang-ky" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded flex items-center justify-center gap-2">
+         <i class="fas fa-pen-square"></i> Đăng ký Test
+         </a>
+      </div>
+      <!-- Zalo Widget Button (Mockup) -->
+      <a href="https://zalo.me/0868010057" target="_blank" class="fixed bottom-20 right-4 md:bottom-10 md:right-10 z-40 bg-blue-500 hover:bg-blue-600 text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition hover:scale-110 animate-pulse">
+      <span class="font-bold text-2xl">Z</span>
+      </a>
+   </body>
+</html>
